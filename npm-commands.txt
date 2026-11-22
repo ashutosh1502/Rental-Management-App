@@ -1,0 +1,26 @@
+Command	Purpose
+npm install	Install all dependencies from package.json
+npm install package-name	Install a new package
+npm install package-name --save-dev	Install a development dependency
+npm uninstall package-name	Remove a package
+npm update	Update installed packages
+npm list	List installed packages
+npm list --depth=0	List direct dependencies only
+npm outdated	Check outdated packages
+npm audit	Check for dependency vulnerabilities
+
+Expo
+# Start development server
+npx expo start
+# Run on Android emulator
+npx expo start --android
+# Clear Metro cache
+npx expo start --clear
+
+React native CLI
+# Start Metro development server
+npm start
+# Run app on Android
+npm run android
+# Run app on iOS (requires macOS)
+npm run ios
